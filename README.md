@@ -27,7 +27,6 @@ Datasets:
 
 ## Examples
 
-Load `siconfipy`
 
 ```python
 from siconfipy import get_fiscal, get_budget, br_cods
