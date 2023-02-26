@@ -1,26 +1,9 @@
-# siconfipy
-
-[![pypi](https://img.shields.io/pypi/v/siconfipy.svg)](https://pypi.python.org/pypi/siconfipy/)
-[![PyPI status](https://img.shields.io/pypi/status/siconfipy.svg)](https://pypi.python.org/pypi/siconfipy/)
-[![PyPI license](https://img.shields.io/pypi/l/siconfipy.svg)](https://pypi.python.org/pypi/siconfipy/)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-
-Python library to access data from the Brazilian Public Sector Accounting and Tax Information System (SICONFI/[National Treasure](https://www.gov.br/tesouronacional/en?set_language=en))
-
-This package is available for [**R**](https://github.com/pedrocastroo/siconfir)
 
 ## Installation
 
-Install from [pip](https://pypi.org/project/siconfipy)
 
 ```bash
-pip install siconfipy
-```
-
-Install from github
-
-```bash
-pip install git+https://github.com/pedrocastroo/siconfipy.git
+pip install git+https://github.com/tfs4/siconfi_api.git
 ```
 
 Dependencies:
@@ -29,16 +12,10 @@ Dependencies:
 * `requests>=1.2.1`
 
 ## Using
-
-siconfipy provides four main functions:
-
-* `get_fiscal()` - Fiscal Management Report
-
-* `get_budget()` - Budget Execution Summary Report
-  
-* `get_annual_acc()` - Annual Statement of Accounts
-
-* `get_info()` - Basic information of the federation entities
+* `get_fiscal()` 
+* `get_budget()` 
+* `get_annual_acc()`
+* `get_info()` 
 
 Utility functions:
 
