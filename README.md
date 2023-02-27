@@ -33,7 +33,7 @@ from siconfipy import get_fiscal, get_budget, br_cods
 
 
 if __name__ == '__main__':
-    data = get_fiscal(year=2020, period=1, cod=35)
+    data = get_budget(year=2020, period=1, cod=35)
     data.to_csv('data.csv')
 ```
 
